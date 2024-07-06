@@ -1,7 +1,7 @@
 
-# CalSyncPro
+# Google Scheduler
 
-CalSyncPro allows you to manage Google Calendar events using Python. You can add, list, and delete events from your Google Calendar.
+Google Scheduler allows you to manage Google Calendar events using Python. You can add, list, and delete events from your Google Calendar.
 
 ## Installation
 
