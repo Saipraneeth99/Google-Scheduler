@@ -1,0 +1,23 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore system files
+.DS_Store
+
+# Ignore credentials and tokens
+credentials.json
+token.pickle
+calendar_log.log
+
+# Ignore any backups or temporary files
+*.bak
+*.tmp
+
+
+*.csv
