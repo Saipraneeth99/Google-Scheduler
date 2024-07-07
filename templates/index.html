@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h2>Welcome, {{ user.name }}!</h2>
+    <form action="{{ url_for('toggle_google_calendar') }}" method="POST">
+        <button type="submit">{{ 'Disconnect' if calendar_connected else 'Connect' }} Google Calendar</button>
+    </form>
+    <iframe src="https://calendar.google.com/calendar/embed?src=14cae5d3a09e204a62433aa87b8bc474ad045d3169057d739528725aafa17eed%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>
